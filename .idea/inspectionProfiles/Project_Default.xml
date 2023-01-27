@@ -1,0 +1,24 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyShadowingBuiltinsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredNames">
+        <list>
+          <option value="int" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="facial_expression.urls.settings" />
+          <option value="facial_expression.recognition_app.models.request" />
+          <option value="facial_expression.recognition_app.forms.recognition_app" />
+          <option value="tensorflow.keras" />
+          <option value="facial_expression.recognition_app.recognition_script" />
+          <option value="showimage.image.forms.Image" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

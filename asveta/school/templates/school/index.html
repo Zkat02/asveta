@@ -1,11 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+{% extends 'base.html' %}
+
+{%block title%} {{news_item.title}} | {{block.super}} {%endblock%}
+
+{% block sidebar %}
+{% include 'inc/_sidebar.html'%}
+{% endblock %}
+
+{% block content %}
+
 Hello
 <a href="admin/">admin</a>
-</body>
-</html>
+
+{% endblock %}
